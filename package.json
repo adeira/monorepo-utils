@@ -1,0 +1,23 @@
+{
+  "name": "@kiwicom/monorepo-utils",
+  "description": "Helpful functions to manage monorepos (using Yarn Workspaces).",
+  "homepage": "https://github.com/kiwicom/monorepo-utils",
+  "license": "MIT",
+  "private": false,
+  "version": "0.24.0",
+  "main": "src/index",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=10.10.0"
+  },
+  "bin": {
+    "monorepo-babel-node": "bin/monorepo-babel-node.js",
+    "monorepo-run-tests": "bin/monorepo-run-tests.js"
+  },
+  "dependencies": {
+    "@babel/register": "^7.6.0",
+    "@kiwicom/js": "^0.17.0",
+    "glob": "^7.1.5",
+    "is-ci": "^2.0.0"
+  }
+}
